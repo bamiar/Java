@@ -1,4 +1,4 @@
-package CovariantReturnTypes;
+package Hackerrank.CovariantReturnTypes;
 
 import java.io.BufferedReader;
 import java.io.IOException;

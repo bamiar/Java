@@ -1,4 +1,4 @@
-package FactoryPattern;
+package Hackerrank.FactoryPattern;
 
 import java.util.Scanner;
 

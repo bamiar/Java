@@ -1,6 +1,5 @@
-package FactoryPattern;
+package Hackerrank.FactoryPattern;
 
-import java.util.*;
 import java.security.*;
 interface Food {
     public String getType();

@@ -1,4 +1,4 @@
-package HackerRankBitset;
+package Hackerrank.Bitset;
 
 import java.util.BitSet;
 import java.util.Scanner;

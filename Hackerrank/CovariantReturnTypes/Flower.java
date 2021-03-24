@@ -1,4 +1,4 @@
-package CovariantReturnTypes;
+package Hackerrank.CovariantReturnTypes;
 
 //Complete the classes below
 class Flower {
