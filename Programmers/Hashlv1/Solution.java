@@ -1,4 +1,4 @@
-package Programmers.ProgrammersHashlv1;
+package Programmers.Hashlv1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
