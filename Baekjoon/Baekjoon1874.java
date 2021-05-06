@@ -18,7 +18,7 @@ public class Baekjoon1874 {
             int input = Integer.parseInt(sc.nextLine());
 
             if(acs <  input) {
-                while (acs<input) {
+                while (acs < input) {
                     stack.push(++acs);
                     result.add("+");
                 }
