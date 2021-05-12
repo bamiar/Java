@@ -21,9 +21,25 @@ public class Baekjoon10656 {
         }
 
         //망가진 힌트 찾기  좌->우 탐색, 0~2열 순
+        for(int m=0; m<input[0]; m++) {
+            for (int n=0; n<input[1]-2; n++) {
+                if(!cross[m][n].equals("#") && !cross[m][n+1].equals("#") && (!cross[m][n+2].equals("#"))) {
+                    if(n==0 || cross[m][n-1].equals("#")) {
+                        cross[m][n]="!";
+                    }
+                }
+            }
+        }
 
-
-
+        for(int n=0; n<input[1]; n++) {
+            for (int m=0; m<input[0]-2; m++) {
+                if(!cross[m][n].equals("#") && !cross[m+1][n].equals("#") && !cross[m+2][n].equals("#")) {
+                    if (m==0 || cross[m-1][n].equals("#")) {
+                        cross[m][n]="!";
+                    }
+                }
+            }
+        }
 
         int totalHint = 0;
         ArrayList<String> hints = new ArrayList<>();
