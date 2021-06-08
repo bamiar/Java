@@ -19,6 +19,18 @@ public class Baekjoon9095 {
                 }
             }
             System.out.println(d[n]);
+//            System.out.println(go(0, n)); 재귀로 풀 경우
         }
     }
+
+//    static int go(int sum, int n) { //재귀함수로 푸는법
+//        if (sum==n) return 1;
+//        if (sum > n) return 0;
+//        int result = 0;
+//        for (int i=1; i<4; i++) {
+//
+//            result += go(sum+i, n);
+//        }
+//        return result;
+//    }
 }
