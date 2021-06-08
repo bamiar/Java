@@ -8,7 +8,7 @@ public class Baekjoon18290 {
     static int n; //격자판 세로크기
     static int m; //격자판 가로크기
     static int k; //선택할 수
-    static int answer;
+    static int answer = Integer.MIN_VALUE;
     static int[][] arr = new int[12][12];
     static boolean[][] visited = new boolean[12][12];
     final static int[] dx = {1,0,-1,0,0};
@@ -23,7 +23,7 @@ public class Baekjoon18290 {
         m = Integer.parseInt(st1.nextToken());
         k = Integer.parseInt(st1.nextToken());
 
-        int sum = 0; //초기화문제 ㅠㅠ
+        int sum = 0;
 
         for(int i=1; i<=n; i++) {
             String[] temp = br.readLine().split(" ");
@@ -40,11 +40,11 @@ public class Baekjoon18290 {
 
     //열 진행은 오름차순으로 설정하고, 1행 안에서는 이전에 방문한 칸을 false 설정해서 스킵하도록 함
     private static void go(int px, int py, int cnt, int sum) {
+
         if (cnt==0) {
             answer = Math.max(answer, sum);
             return;
         }
-
         for(int i=px; i<=n; i++) {
             for (int j=(i==px?py:1); j<=m; j++) {
                 if(!visit(i, j)) {continue;}
