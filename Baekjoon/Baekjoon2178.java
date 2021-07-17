@@ -12,19 +12,22 @@ public class Baekjoon2178 { // 그래프, 최단거리, bfs
     private static int n;
     private static int m;
     private static int[][] square;
-    private static int[][] check; //방문여부 표시
-    private static int[][] dist; //거리
+    private static int[][] dist; //방문여부, 거리
     private static int[] dx = {-1, 1, 0, 0};
     private static int[] dy = {0,0, -1, 1};
-    private static int cnt;
 
     public static void main(String[] args) throws Exception{
         StringTokenizer st = new StringTokenizer(br.readLine().trim());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
         square = new int[n][m];
-        check = new int[n][m];
         dist = new int[n][m];
+
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<m; j++) {
+                dist[i][j] = -1;
+            }
+        }
 
         for(int i=0; i<n; i++) {
             int[] input = Arrays.stream(br.readLine().split(""))
@@ -34,7 +37,7 @@ public class Baekjoon2178 { // 그래프, 최단거리, bfs
 
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
-                if(check[i][j]==0 && square[i][j]==1) {
+                if(dist[i][j]==-1 && square[i][j]==1) {
                     bfs(i, j);
                 }
             }
@@ -46,7 +49,6 @@ public class Baekjoon2178 { // 그래프, 최단거리, bfs
     static void bfs(int x, int y) {
         Queue<int[]> queue = new LinkedList();
         queue.add(new int[] {x, y});
-        check[x][y] = 1;
         dist[x][y] = 1;
 
         while(!queue.isEmpty()) {
@@ -59,9 +61,8 @@ public class Baekjoon2178 { // 그래프, 최단거리, bfs
                 int ny = y + dy[i];
 
                 if(nx>=0 && nx<n && ny>=0 && ny<m) {
-                    if(square[nx][ny]==1 && check[nx][ny]==0) {
+                    if(square[nx][ny]==1 && dist[nx][ny]==-1) {
                         queue.add(new int[] {nx, ny});
-                        check[nx][ny] = 1;
                         dist[nx][ny] = dist[x][y] +1;
                     }
                 }
