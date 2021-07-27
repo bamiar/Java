@@ -29,7 +29,7 @@ public class Baekjoon1260 {
             adjList[b].add(a);
         }
 
-        for(int i=0; i<n; i++) {
+        for(int i=0; i<=n; i++) {
             Collections.sort(adjList[i]);
         }
 
