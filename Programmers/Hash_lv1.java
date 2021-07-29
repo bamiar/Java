@@ -1,11 +1,11 @@
-package Programmers.Hashlv1;
+package Programmers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-class Solution {
+class Hash_lv1 {
     public String solution(String[] participant, String[] completion) {
         List<String> part = new ArrayList(Arrays.asList(participant.clone()));
         List<String> comp = new ArrayList(Arrays.asList(completion.clone()));
