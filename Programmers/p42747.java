@@ -3,9 +3,10 @@ package Programmers;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class SortingLv2 {
+public class p42747 {
 
     public static void main(String[] args) {
+
         System.out.println(solution(new int[] {3, 0, 6, 1, 5}));
     }
 
