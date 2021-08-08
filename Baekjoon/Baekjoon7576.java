@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Baekjoon7576 {
+public class Baekjoon7576 { //bfs dfs
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static int n;
     private static int m;

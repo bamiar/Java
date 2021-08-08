@@ -1,6 +1,6 @@
 package Programmers;
 
-class p72410 { //신규 아이디 추천
+class p72410_1 { //신규 아이디 추천
     public static void main(String[] args) {
         System.out.println(solution("abcdefghijklmn.p"));
     }

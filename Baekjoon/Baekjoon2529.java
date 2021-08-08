@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Baekjoon2529 {
+public class Baekjoon2529 { //bf
     static boolean[] check = new boolean[10];
     static char[] arr = new char[10];
     static ArrayList<String> ans = new ArrayList<>();

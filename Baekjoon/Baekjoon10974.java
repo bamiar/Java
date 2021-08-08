@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Baekjoon10974 {
+public class Baekjoon10974 { //bf 순열
     private static final StringBuilder sb = new StringBuilder();
     static int n;
 

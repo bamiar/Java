@@ -3,7 +3,7 @@ package Baekjoon;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Baekjoon11722 {
+public class Baekjoon11722 { //다이나믹
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

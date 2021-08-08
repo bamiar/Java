@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class Baekjoon10866 {
+public class Baekjoon10866 { //덱
     public static void main(String[] args) throws  Exception{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         Deque<Integer> deque = new LinkedList<>();

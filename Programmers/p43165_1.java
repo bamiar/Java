@@ -1,6 +1,6 @@
 package Programmers;
 
-public class p43165 { //타겟넘버
+public class p43165_1 { //타겟넘버
         static int answer = 0;
         static int t;
         static int[] num;

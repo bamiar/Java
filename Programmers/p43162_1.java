@@ -1,6 +1,6 @@
 package Programmers;
 
-public class p43162 { //dfs, 연결요소
+public class p43162_1 { //dfs, 연결요소
     static boolean[] visit;
     static int answer;
     static int[][] cpu;

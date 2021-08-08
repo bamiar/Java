@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Baekjoon14226 {
+public class Baekjoon14226 { //bfs
     private static final Scanner sc = new Scanner(System.in);
     private static int[][] time; //0:방문안함 1이상:방문했으며 소요된시간
 

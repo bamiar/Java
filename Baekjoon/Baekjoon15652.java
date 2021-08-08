@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
-public class Baekjoon15652 {
+public class Baekjoon15652 { //백트래킹
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static int[] rst = new int[8];
 

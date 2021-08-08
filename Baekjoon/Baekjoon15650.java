@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Baekjoon15650 {
+public class Baekjoon15650 {//백트래킹
     static StringBuilder sb = new StringBuilder();
 //    static boolean[] cnt = new boolean[8]; //사용한 값 체크
     static int[] rst = new int[8]; //출력할 수열 값 저장

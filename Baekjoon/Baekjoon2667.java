@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Baekjoon2667 {//사각형 안의 연결요소 구하기 (그래프)
+public class Baekjoon2667 {//bfs dfs 사각형 안의 연결요소 구하기
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int n;
     static int[][] square;

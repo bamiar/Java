@@ -3,7 +3,7 @@ package Programmers;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class p42747 {
+public class p42747_1 {
 
     public static void main(String[] args) {
 

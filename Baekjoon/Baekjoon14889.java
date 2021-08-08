@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Baekjoon14889 {
+public class Baekjoon14889 { //bf 백트래킹
     static int[][] Team = new int[20][20];
     static int n;
 

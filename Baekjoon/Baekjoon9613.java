@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Baekjoon9613 {
+public class Baekjoon9613 { //수학
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -21,7 +21,7 @@ public class Baekjoon9613 {
             System.out.println(result);
         }}
 
-    static int gcd(int a, int b) {
+    static int gcd(int a, int b) { //유클리드 호제법
 //        return b==0? a:gcd(b, a%b);
         if (a%b==0) {
             return b;

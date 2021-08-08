@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.Arrays;
 
-public class p77484 {
+public class p77484_1 {
         public static void main(String[] args) {
             solution(new int[] {0, 0, 0, 0, 0, 0}, new int[]{31, 10, 45, 1, 6, 19});
         }

@@ -2,12 +2,10 @@ package Programmers;
 
 import java.util.HashMap;
 
-public class p42577 {
+public class p42577_1 {
     public boolean solution(String[] phone_book) {
         boolean answer = true;
         HashMap<String, Integer> hashMap = new HashMap<>();
-
-//        Arrays.sort(phone_book);
 
         for(int i=0; i<phone_book.length; i++) {
             hashMap.put(phone_book[i],i);

@@ -5,7 +5,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Baekjoon2751 {
+public class Baekjoon2751 { //정렬
 
     private static int[] tmp = new int[1000001];
 

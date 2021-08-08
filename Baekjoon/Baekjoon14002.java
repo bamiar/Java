@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Baekjoon14002 {
+public class Baekjoon14002 { //다이나믹
     static int[] a = new int[100001];
     static int[] d = new int[100001];
     static int[] v = new int[100001];

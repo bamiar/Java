@@ -3,7 +3,7 @@ package Baekjoon;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Baekjoon15656 {
+public class Baekjoon15656 { //백트래킹
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
     static int[] sortedArr; //input 오름차순으로 정렬

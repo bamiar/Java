@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Baekjoon15661 { //TODO
+public class Baekjoon15661 { //TODO bf
     static int[][] Team;
     static int n;
     static ArrayList<Integer> teamA = new ArrayList<>();

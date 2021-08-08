@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class Baekjoon17103 {
+public class Baekjoon17103 { //소수 에라토스테네스의 체 골드바흐
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

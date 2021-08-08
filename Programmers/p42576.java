@@ -1,28 +1,25 @@
 package Programmers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 class p42576 {
-    public String solution(String[] participant, String[] completion) {
-        List<String> part = new ArrayList(Arrays.asList(participant.clone()));
-        List<String> comp = new ArrayList(Arrays.asList(completion.clone()));
+    public static void main(String[] a) {
+        solution(new String[] {"leo", "kiki", "eden"}, new String[] {"eden", "kiki"});
+    }
 
+    public static String solution(String[] participant, String[] completion) {
         String answer = "";
-        int i = 0;
 
-        Collections.sort(part);
-        Collections.sort(comp);
-        comp.add("");
+        Arrays.sort(participant);
+        Arrays.sort(completion);
 
-        for (String s : part) {
-            if (s.equals(comp.get(i))) {
-                i++;
+        for(int i=0; i<participant.length; i++) {
+            if(i>=completion.length || !participant[i].equals(completion[i])) {
+                answer = participant[i];
+                break;
             }
-            else answer = s;
         }
+
         return answer;
     }
 }

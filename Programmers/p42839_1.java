@@ -1,6 +1,6 @@
 package Programmers;
 
-public class p42839 {
+public class p42839_1 {
 
     static boolean[] e = new boolean[10000000];
     static boolean[] visit;

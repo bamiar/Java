@@ -3,7 +3,7 @@ package Programmers;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class p43163 { //단어 변환 bfs
+class p43163_1 { //단어 변환 bfs
 
     static boolean[] visited;
 

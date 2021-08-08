@@ -3,7 +3,7 @@ package Baekjoon;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Baekjoon1707 {
+public class Baekjoon1707 { // 이분 그래프 dfs bfs
     private static final Scanner sc = new Scanner(System.in);
     private static ArrayList<Integer>[] adjust;
     private static int[] color;

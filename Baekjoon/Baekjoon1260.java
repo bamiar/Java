@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Baekjoon1260 {
+public class Baekjoon1260 { //dfs bfs
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static ArrayList<Integer>[] adjList;
     private static boolean[] check;

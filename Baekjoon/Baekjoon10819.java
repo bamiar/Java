@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Baekjoon10819 {
+public class Baekjoon10819 { //bf 백트래킹
     private final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int n;
 
