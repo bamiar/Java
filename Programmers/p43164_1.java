@@ -21,7 +21,7 @@ class p43164_1 { //dfs
             if(tickets[i][0].equals("ICN")) {
                     used[i] = true;
 
-                    dfs(i, 1, tickets, "INC");
+                    dfs(i, 1, tickets, "ICN");
             }
         }
 
