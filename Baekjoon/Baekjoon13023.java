@@ -12,7 +12,7 @@ class Edge { //두 자료형을 묶기 위해=> arraylist 안에 배열을 넣�
         this.to = to;
     }
 }
-public class Baekjoon13023 {
+public class Baekjoon13023 { //dfs
     final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 

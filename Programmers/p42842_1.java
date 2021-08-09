@@ -1,6 +1,6 @@
 package Programmers;
 
-public class p42842 {
+public class p42842_1 {
 
     public static void main(String[] args) {
         solution(24, 24);

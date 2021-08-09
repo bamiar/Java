@@ -3,7 +3,7 @@ package Baekjoon;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Baekjoon6603 {
+public class Baekjoon6603 {//bf 백트래킹 재귀
     private final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static StringBuilder sb = new StringBuilder();
     static int n;

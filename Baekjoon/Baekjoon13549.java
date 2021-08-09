@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Scanner;
 
-public class Baekjoon13549 {
+public class Baekjoon13549 { //bfs
     private final static Scanner sc = new Scanner(System.in);
     private static boolean[] visit = new boolean[100001];
     private static int[] time = new int[100001];

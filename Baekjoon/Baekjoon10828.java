@@ -8,7 +8,7 @@ import java.util.Stack;
 //https://www.acmicpc.net/problem/10828
 
 
-class Baekjoon10828 {
+class Baekjoon10828 { //stack
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Stack<Integer> stack = new Stack<>();

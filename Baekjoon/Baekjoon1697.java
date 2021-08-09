@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Baekjoon1697 {
+public class Baekjoon1697 { //bps
     private static final Scanner sc = new Scanner(System.in);
     private static boolean[] visit = new boolean[2000000]; //방문여부
     private static int[] dist = new int[2000000];  //소요시간

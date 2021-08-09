@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
-public class Baekjoon1261 {
+public class Baekjoon1261 { //dfs bfs 사각형
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static int[][] algospot;
     private static int[][] dist;

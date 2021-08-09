@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Baekjoon18290 {
+public class Baekjoon18290 { //백트래킹
     static int n; //격자판 세로크기
     static int m; //격자판 가로크기
     static int k; //선택할 수

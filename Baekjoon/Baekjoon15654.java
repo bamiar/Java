@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Baekjoon15654 {
+public class Baekjoon15654 { //백트래킹
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static int[] arr;
     static boolean[] count = new boolean[10001];

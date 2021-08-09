@@ -3,7 +3,7 @@ package Baekjoon;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Baekjoon14500 {
+public class Baekjoon14500 { //bf
     public static void main(String[] args) throws Exception{
         BufferedReader br =  new BufferedReader(new InputStreamReader(System.in));
 

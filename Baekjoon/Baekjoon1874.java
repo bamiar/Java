@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Baekjoon1874 {
+public class Baekjoon1874 { //stack
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

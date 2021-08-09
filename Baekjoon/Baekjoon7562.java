@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Baekjoon7562 {
+public class Baekjoon7562 { //bfs dfs
     private static final Scanner sc = new Scanner(System.in);
     private static int n;
     private static int[][] board;

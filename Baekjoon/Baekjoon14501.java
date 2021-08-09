@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Baekjoon14501 {
+public class Baekjoon14501 { //bf
     static int answer = 0;
     static int n;
 

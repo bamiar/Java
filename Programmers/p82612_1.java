@@ -1,6 +1,6 @@
 package Programmers;
 
-public class p82612 {
+public class p82612_1 {
     public static void main(String[] args) {
         solution(3, 20, 4);
     }

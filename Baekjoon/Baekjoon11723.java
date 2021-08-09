@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class Baekjoon11723 {
+public class Baekjoon11723 { //비트마스킹?
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();

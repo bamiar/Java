@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Baekjoon11724 { //연결요소의 개수 구하기
+public class Baekjoon11724 { //bfs dfs 연결요소
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static ArrayList<Integer>[] adjList;
     private static boolean[] check;
