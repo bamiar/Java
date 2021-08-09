@@ -22,6 +22,7 @@ class p43164_1 { //dfs
                     used[i] = true;
 
                     dfs(i, 1, tickets, "ICN");
+                    used[i] = false;
             }
         }
 
