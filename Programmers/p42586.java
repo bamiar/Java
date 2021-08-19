@@ -12,7 +12,7 @@ public class p42586 {
         int day = 1;
         int index = 0;
 
-        Stack<Integer> stack =  new Stack();
+        Stack<Integer> stack =  new Stack<Integer>();
         List<Integer> result = new ArrayList<>();
         
         

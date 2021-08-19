@@ -8,7 +8,7 @@ public class p68644 {
     }
 
     public static int[] solution(int[] numbers) {
-        HashSet<Integer> sum = new HashSet();
+        HashSet<Integer> sum = new HashSet<Integer>();
 
         for(int i=0; i< numbers.length; i++) {
             for(int j=i; j<numbers.length; j++) {
