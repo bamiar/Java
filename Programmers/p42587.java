@@ -2,9 +2,7 @@ package Programmers;
 
 import java.util.*;
 
-
 class p42587 {
-
     public static void main(String[] a) {
         solution(new int[] {2,1,3,2}, 2);
     }
