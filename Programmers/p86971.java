@@ -7,7 +7,7 @@ public class p86971 {
     static boolean[] visited;
     static List<Integer>[] wire;
     static int topSum;
-    
+
     static int solution(int n, int[][] wires) {
         int answer = 101;
         wire = new ArrayList[n+1];
