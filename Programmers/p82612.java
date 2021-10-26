@@ -1,6 +1,6 @@
 package Programmers;
 
-public class p82612_1 {
+public class p82612 {
     public static void main(String[] args) {
         solution(3, 20, 4);
     }
@@ -20,4 +20,18 @@ public class p82612_1 {
         }
         return sum;
     }
+
+    //재귀 안쓰고도 풀 수 있음
+//    long solution(int price, int money, int count) {
+//        long answer = 0;
+//
+//        while(count>0) {
+//            answer += count*price;
+//            --count;
+//        }
+//
+//        answer = money>answer?0:answer-money;
+//
+//        return answer;
+//    }
 }
