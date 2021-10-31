@@ -1,4 +1,4 @@
-package Programmers;
+package Test;
 
 public class pNMB2 {
 
